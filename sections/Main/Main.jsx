@@ -1,9 +1,9 @@
 import { MainContainer } from "../../components/Containers/MainContainer";
 import {
-  StyledMainBackground,
   StyledHeadingMain,
+  StyledMainBackground,
   StyledSubheadingMain,
-} from "../../components/Containers/MainContainer/elements";
+} from "./elements";
 
 export const Main = () => {
   return (
