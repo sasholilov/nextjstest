@@ -33,13 +33,13 @@ export const Main = ({ title, subtitle, image }) => {
                 what to include, we've got you covered.
               </Card>
               <Card title="Search" type="midcard">
-                In-depth agency search covering;
+                In-depth agency search covering;{" "}
                 <strong>criteria matching</strong>, door knocking and
                 due-delligence vetting.
               </Card>
               <Card title="Pitch" type="largecard">
                 Comprehensive <strong>pitch management</strong>, including
-                comms, diary management and pitch hosting
+                comms, diary management and pitch hosting.
               </Card>
             </StyledCardsContainer>
           </StyledMainContainer>

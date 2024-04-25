@@ -11,12 +11,12 @@ export const StyledCardContainer = styled.div`
   background-color: #f1f1f1;
   max-width: ${(props) =>
     props.type === "mincard"
-      ? `400px`
+      ? `330px`
       : props.type === "midcard"
-      ? `420px`
+      ? `370px`
       : props.type === "largecard"
-      ? `440px`
-      : `400px`};
+      ? `400px`
+      : `340px`};
   padding: 1rem 2.5rem 1rem 2.5rem;
   border-radius: 6px;
   border: 2px solid transparent;
