@@ -11,15 +11,25 @@ export const StyledMainBackground = styled.div`
   background-position: left;
   background-size: contain;
   width: 100%;
+
+  @media (max-width: 1024px) {
+    background-position: top;
+  }
 `;
 
 export const StyledMainContainer = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: center;
   margin: 0 auto;
   gap: 5rem;
   width: 100%;
+
+  @media (max-width: 1024px) {
+    flex-direction: column;
+    padding-bottom: 30px;
+  }
 `;
 
 export const StyledHeadingMain = styled(StyledSectionHeading)`
@@ -35,8 +45,8 @@ export const StyledSubheadingMain = styled(StyledSectionSubheading)`
 `;
 
 export const StyledMainImageContainer = styled.div`
-  max-width: 315px;
-  max-height: 502px;
+  max-width: 340px;
+  max-height: 542px;
   width: 100%;
 `;
 
