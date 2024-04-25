@@ -5,8 +5,9 @@ import {
 } from "../../components/Typography/elements";
 
 export const StyledCardContainer = styled.div`
-  cursor: pointer;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  gap: 2rem;
   background-color: #f1f1f1;
   max-width: ${(props) =>
     props.type === "mincard"
@@ -23,6 +24,16 @@ export const StyledCardContainer = styled.div`
   & :hover {
     border: 2px solid #0772fc;
   }
+`;
+
+export const StyledCardIconWrapper = styled.div`
+  width: 100px;
+  height: auto;
+`;
+
+export const StyledCardText = styled.div`
+  cursor: pointer;
+  box-sizing: border-box;
 `;
 
 export const StyledCardHeading = styled(StyledSectionHeading)`
