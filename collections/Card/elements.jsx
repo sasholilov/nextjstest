@@ -17,13 +17,13 @@ export const StyledCardContainer = styled.div`
       : props.type === "largecard"
       ? `400px`
       : `340px`};
+  border: 2px solid transparent;
   padding: 1rem 2.5rem 1rem 2.5rem;
   border-radius: 6px;
-  border: 2px solid transparent;
-  cursor: pointer;
-  & :hover {
+  &:hover {
     border: 2px solid #0772fc;
   }
+  cursor: pointer;
 `;
 
 export const StyledCardIconWrapper = styled.div`
@@ -38,7 +38,6 @@ export const StyledCardText = styled.div`
 export const StyledCardHeading = styled(StyledSectionHeading)`
   font-size: 1.3em;
   line-height: 0;
-
   ${StyledCardContainer}:hover & {
     color: #0772fc;
     text-decoration: underline;
