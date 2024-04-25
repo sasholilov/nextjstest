@@ -9,8 +9,9 @@ export const StyledMainBackground = styled.div`
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  width: 100%;
-  height: 100%;
+  width: 67%;
+  height: 67%;
+  display: flex;
 `;
 
 export const StyledHeadingMain = styled(StyledSectionHeading)`
@@ -23,4 +24,10 @@ export const StyledSubheadingMain = styled(StyledSectionSubheading)`
   text-align: center;
   margin: 0;
   padding: 0;
+`;
+
+export const StyledMainImageContainer = styled.div`
+  max-width: 420px;
+  max-height: 670px;
+  width: 100%;
 `;
