@@ -9,9 +9,9 @@ const heroProps = {
 
 const MainProps = {
   title: "Managed agency selection",
-  subtitle: 'Strenghten your onboarding process',
-  image: { src: "/img/video.png", alt: "video", width: 420, height: 670, }
-}
+  subtitle: "Strenghten your onboarding process",
+  image: { src: "/img/video.png", alt: "video", width: 315, height: 502 },
+};
 
 export default function Home() {
   return (

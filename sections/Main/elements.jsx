@@ -8,13 +8,18 @@ export const StyledMainBackground = styled.div`
   padding-top: 5rem;
   background-image: url("/img/background.png");
   background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  width: 67%;
-  height: 67%;
+  background-position: left;
+  background-size: contain;
+  width: 100%;
+`;
+
+export const StyledMainContainer = styled.div`
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
-  gap: 6.5rem;
+  margin: 0 auto;
+  gap: 5rem;
+  width: 100%;
 `;
 
 export const StyledHeadingMain = styled(StyledSectionHeading)`
@@ -30,8 +35,8 @@ export const StyledSubheadingMain = styled(StyledSectionSubheading)`
 `;
 
 export const StyledMainImageContainer = styled.div`
-  max-width: 420px;
-  max-height: 670px;
+  max-width: 315px;
+  max-height: 502px;
   width: 100%;
 `;
 

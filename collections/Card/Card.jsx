@@ -1,5 +1,14 @@
-import { StyledCardContainer } from "./elements";
+import {
+  StyledCardContainer,
+  StyledCardDescription,
+  StyledCardHeading,
+} from "./elements";
 
-export const Card = ({ children }) => {
-  return <StyledCardContainer>{children}</StyledCardContainer>;
+export const Card = ({ children, title, type }) => {
+  return (
+    <StyledCardContainer type={type}>
+      <StyledCardHeading>{title}</StyledCardHeading>
+      <StyledCardDescription>{children}</StyledCardDescription>
+    </StyledCardContainer>
+  );
 };
