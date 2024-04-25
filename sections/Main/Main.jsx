@@ -29,16 +29,17 @@ export const Main = ({ title, subtitle, image }) => {
             </StyledMainImageContainer>
             <StyledCardsContainer>
               <Card title="Brief" type="mincard">
-                Complete brief writing or simple gaidanca on what to include,
-                we've got you covered.
+                Complete <strong>brief writing or simple gaidanca</strong> on
+                what to include, we've got you covered.
               </Card>
               <Card title="Search" type="midcard">
-                In-depth agency search covering; criteria matching, door
-                knocking and due-delligence vetting.
+                In-depth agency search covering;
+                <strong>criteria matching</strong>, door knocking and
+                due-delligence vetting.
               </Card>
               <Card title="Pitch" type="largecard">
-                Comprehensive pitch management, including comms, diary
-                management and pitch hosting
+                Comprehensive <strong>pitch management</strong>, including
+                comms, diary management and pitch hosting
               </Card>
             </StyledCardsContainer>
           </StyledMainContainer>
