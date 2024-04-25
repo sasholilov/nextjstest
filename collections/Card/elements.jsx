@@ -20,7 +20,7 @@ export const StyledCardContainer = styled.div`
   padding: 1rem 2.5rem 1rem 2.5rem;
   border-radius: 6px;
   border: 2px solid transparent;
-
+  cursor: pointer;
   & :hover {
     border: 2px solid #0772fc;
   }
@@ -32,7 +32,6 @@ export const StyledCardIconWrapper = styled.div`
 `;
 
 export const StyledCardText = styled.div`
-  cursor: pointer;
   box-sizing: border-box;
 `;
 
