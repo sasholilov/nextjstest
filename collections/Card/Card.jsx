@@ -16,7 +16,7 @@ export const Card = ({ children, title, type }) => {
           src={`/img/${title.toLowerCase()}icon.png`}
           width="100px"
           height="100px"
-          alt="brief"
+          alt={`${title}-icon`}
         ></Image>
       </StyledCardIconWrapper>
       <StyledCardText>
