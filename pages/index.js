@@ -11,6 +11,11 @@ const MainProps = {
   title: "Managed agency selection",
   subtitle: "Strenghten your onboarding process",
   image: { src: "/img/video.png", alt: "video", width: 340, height: 542 },
+  cards: {
+    firstCard: { title: "Brief", size: "mincard" },
+    secondCard: { title: "Search", size: "midcard" },
+    thirdCard: { title: "Pitch", size: "largecard" },
+  },
 };
 
 export default function Home() {

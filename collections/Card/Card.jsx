@@ -1,24 +1,15 @@
+import { CardIcon } from "../../components/CardIcon";
 import {
   StyledCardContainer,
   StyledCardDescription,
   StyledCardHeading,
-  StyledCardIconWrapper,
   StyledCardText,
 } from "./elements";
-import Image from "next/image";
 
-export const Card = ({ children, title, type }) => {
+export const Card = ({ children, title, size }) => {
   return (
-    <StyledCardContainer type={type}>
-      <StyledCardIconWrapper>
-        <Image
-          layout="responsive"
-          src={`/img/${title.toLowerCase()}icon.png`}
-          width="100px"
-          height="100px"
-          alt={`${title}-icon`}
-        ></Image>
-      </StyledCardIconWrapper>
+    <StyledCardContainer size={size}>
+      <CardIcon title={title} />
       <StyledCardText>
         <StyledCardHeading>{title}</StyledCardHeading>
         <StyledCardDescription>{children}</StyledCardDescription>

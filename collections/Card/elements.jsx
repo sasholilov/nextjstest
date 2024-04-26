@@ -10,11 +10,11 @@ export const StyledCardContainer = styled.div`
   gap: 2rem;
   background-color: #f1f1f1;
   max-width: ${(props) =>
-    props.type === "mincard"
+    props.size === "mincard"
       ? `330px`
-      : props.type === "midcard"
+      : props.size === "midcard"
       ? `370px`
-      : props.type === "largecard"
+      : props.size === "largecard"
       ? `400px`
       : `340px`};
   border: 2px solid transparent;
@@ -24,11 +24,6 @@ export const StyledCardContainer = styled.div`
     border: 2px solid #0772fc;
   }
   cursor: pointer;
-`;
-
-export const StyledCardIconWrapper = styled.div`
-  width: 100px;
-  height: auto;
 `;
 
 export const StyledCardText = styled.div`
